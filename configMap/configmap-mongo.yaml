@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cofigmap-mongo
+data:
+  database-url: service-mongo
